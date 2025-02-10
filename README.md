@@ -1,21 +1,15 @@
-
----
-
-### **2. ft_printf**
-
-```md
-# ft_printf
+# 🖨️ ft_printf
 
 ## Description
-This project involves creating a simplified version of the `printf` function in C. It supports various format specifiers such as integers, strings, hexadecimal, and more. The goal of this project is to understand variadic functions and handle different format specifiers.
+ft_printf is a custom implementation of the C `printf` function. This project helps to understand variadic functions and format specifiers, providing the ability to handle different types of data in a formatted output.
 
 ## Features
-- **Format Specifiers**: `%d`, `%s`, `%x`, `%f`, and more.
-- **Field Width and Precision**: Dynamic formatting support.
-- **Return Value**: The number of characters printed.
+- **Format specifiers**: `%d`, `%s`, `%x`, `%f`, and more.
+- **Field width and precision**: Dynamic formatting support.
+- **Return value**: Returns the number of characters printed.
 
 ## Installation
-To compile the project, run the following commands:
+To compile the project, clone the repo and run `make`:
 
 ```bash
 git clone https://github.com/yourUsername/ft_printf.git
